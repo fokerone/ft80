@@ -1,0 +1,152 @@
+.frente {
+    margin: 15px;
+    background-color: rgb(47 55 54);
+    position: absolute;
+    width: 1050px;
+    height: 380px;
+    border-radius: 5px;
+}
+
+.displayFrame {
+    background-color: black;
+    position: fixed;
+    width: 750px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.logo {
+    background-color: rgb(32, 38, 37);
+    position: fixed;
+    top: 220px;
+    left: 35px;
+    width: 380px;
+    height: 20px;
+}
+
+.logo-yaesu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    font-size: medium;
+    font-weight: bolder;
+    padding: 17px;
+}
+
+.logo-trans {
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    font-size: small;
+    padding: 15px;
+}
+
+.parlante {
+    background-color: #2a3130;
+    position: fixed;
+    width: 350px;
+    height: 235px;
+    top: 240px;
+    left: 100px;
+    
+}
+
+.parlante-rejilla {
+    background-color: #e5e5f7;
+    opacity: 0.3;
+    background-image: linear-gradient(0deg, #202625 50%, #353d3c 50%);
+    background-size: 18px 18px;
+    width: 350px;
+    height: 235px;
+}
+
+.auriculares-inner {
+    width: 50px;
+    height: 50px;
+    background: rgb(54, 53, 53); 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+    position: fixed;
+    top: 408px;
+    left: 107px;
+}
+
+.auriculares-out {
+    position: relative;
+    top:15%;
+    left:15%;
+    width: 35px;
+    height: 35px;
+    background: rgb(233, 233, 233); 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+}
+
+.auriculares-in {
+    position: relative;
+    top:10%;
+    left:10%;
+    width: 28px;
+    height: 28px;
+    background: rgb(24, 24, 24); 
+    -moz-border-radius: 70px; 
+    -webkit-border-radius: 70px; 
+    border-radius: 70px;
+}
+
+.parlante-footer {
+    position: fixed;
+    background-color: #202625;
+    width: 350px;
+    height: 20px;
+    top: 455px
+}
+
+.phones {
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    font-size: x-small;
+    padding-left: 15px;
+}
+
+.cat {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: small;
+    background-color: rgb(226, 56, 13);
+    position: fixed;
+    left: 330px;
+}
+
+.tapasCont {
+    position: fixed;
+    top: 232px;
+    left: 765px;
+}
+
+.tapitas-mode {
+    background-color: rgb(136 178 155);
+    width: 110px;
+    height: 30px;
+}
+
+.tapitas {
+    background-color:#202625;
+    width: 80px;
+    height: 30px;
+}
+
+.tapitas-cuadrada {
+    background-color:#202625;
+    width: 60px;
+    height: 60px;
+}
+
+.separador {
+    padding-top: 25px;
+}
+
+
+
