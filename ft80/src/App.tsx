@@ -1,5 +1,5 @@
 import { Gabinete } from "./components/Gabinete"
-
+import './index.css'
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-     <h1>YAESU FT80</h1>
+     <h1>YAESU FT80C  - LU5MCD - </h1>
      <Gabinete />
     </>
   )

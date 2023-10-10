@@ -1,5 +1,7 @@
 import  "../styles/gabinete.css";
+import { Clarificador } from "./Clarificador";
 import { Dial } from "./Dial";
+import { Dlock } from "./Dlock";
 
 export const Gabinete = () => {
   return (
@@ -57,7 +59,10 @@ export const Gabinete = () => {
         <div className="mic">
 
         </div>
-        < Dial/>
+        < Clarificador />
+        < Dlock />
+        < Dial />
+
     </div>
     
     </>
