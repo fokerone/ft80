@@ -1,4 +1,5 @@
 import  "../styles/gabinete.css";
+import { Dial } from "./Dial";
 
 export const Gabinete = () => {
   return (
@@ -9,6 +10,7 @@ export const Gabinete = () => {
         <div className="logo">
             <span className="logo-yaesu">YAESU</span>
             <span className="logo-trans">HF TRANSCEIVER</span>
+            <span className="logo-ft">FT-80C</span>
         </div>
         <div className="parlante">
             <div className="parlante-rejilla"></div>
@@ -52,6 +54,10 @@ export const Gabinete = () => {
                 </tbody>
             </table>
         </div>
+        <div className="mic">
+
+        </div>
+        < Dial/>
     </div>
     
     </>
